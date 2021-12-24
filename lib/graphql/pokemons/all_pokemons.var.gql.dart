@@ -2,7 +2,8 @@
 
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
-import 'package:graphql_demo/graphql/scheme/serializers.gql.dart' as _i1;
+import 'package:graphql_demo/graphql/pokemons/scheme/serializers.gql.dart'
+    as _i1;
 
 part 'all_pokemons.var.gql.g.dart';
 

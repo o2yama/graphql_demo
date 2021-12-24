@@ -8,17 +8,17 @@ targets:
       gql_build|data_builder:
         enabled: true
         options:
-          schema: graphql_demo|lib/graphql/scheme/schema.graphql
+          schema: graphql_demo|lib/graphql/pokemons/scheme/schema.graphql
       gql_build|var_builder:
         enabled: true
         options:
-          schema: graphql_demo|lib/graphql/scheme/schema.graphql
+          schema: graphql_demo|lib/graphql/pokemons/scheme/schema.graphql
       gql_build|serializer_builder:
         enabled: true
         options:
-          schema: graphql_demo|lib/graphql/scheme/schema.graphql
+          schema: graphql_demo|lib/graphql/pokemons/scheme/schema.graphql
 
       ferry_generator|req_builder:
         enabled: true
         options:
-          schema: graphql_demo|lib/graphql/scheme/schema.graphql
+          schema: graphql_demo|lib/graphql/pokemons/scheme/schema.graphql

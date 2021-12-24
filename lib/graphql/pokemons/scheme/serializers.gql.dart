@@ -3,11 +3,11 @@ import 'package:built_value/serializer.dart';
 import 'package:built_value/standard_json_plugin.dart' show StandardJsonPlugin;
 import 'package:gql_code_builder/src/serializers/operation_serializer.dart'
     show OperationSerializer;
-import 'package:graphql_demo/graphql/all_pokemons.data.gql.dart'
+import 'package:graphql_demo/graphql/pokemons/all_pokemons.data.gql.dart'
     show GAllPokemonData, GAllPokemonData_pokemons;
-import 'package:graphql_demo/graphql/all_pokemons.req.gql.dart'
+import 'package:graphql_demo/graphql/pokemons/all_pokemons.req.gql.dart'
     show GAllPokemonReq;
-import 'package:graphql_demo/graphql/all_pokemons.var.gql.dart'
+import 'package:graphql_demo/graphql/pokemons/all_pokemons.var.gql.dart'
     show GAllPokemonVars;
 
 part 'serializers.gql.g.dart';

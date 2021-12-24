@@ -1,9 +1,8 @@
 import 'package:ferry/ferry.dart';
 import 'package:gql_http_link/gql_http_link.dart';
-import 'package:graphql_demo/graphql/all_pokemons.data.gql.dart';
-import 'package:graphql_demo/graphql/all_pokemons.req.gql.dart';
-
-import '../all_pokemons.var.gql.dart';
+import 'package:graphql_demo/graphql/pokemons/all_pokemons.data.gql.dart';
+import 'package:graphql_demo/graphql/pokemons/all_pokemons.req.gql.dart';
+import 'package:graphql_demo/graphql/pokemons/all_pokemons.var.gql.dart';
 
 class GraphQlClient {
   GraphQlClient() {

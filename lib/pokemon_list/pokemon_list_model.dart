@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:graphql_demo/graphql/all_pokemons.data.gql.dart';
 import 'package:graphql_demo/graphql/client/graphql.dart';
+import 'package:graphql_demo/graphql/pokemons/all_pokemons.data.gql.dart';
 
 final pokemonListStateProvider =
     StateNotifierProvider<PokemonListState, List<GAllPokemonData_pokemons>>(

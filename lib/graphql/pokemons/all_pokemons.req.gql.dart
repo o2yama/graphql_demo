@@ -4,10 +4,12 @@ import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
 import 'package:ferry_exec/ferry_exec.dart' as _i1;
 import 'package:gql_exec/gql_exec.dart' as _i4;
-import 'package:graphql_demo/graphql/all_pokemons.ast.gql.dart' as _i5;
-import 'package:graphql_demo/graphql/all_pokemons.data.gql.dart' as _i2;
-import 'package:graphql_demo/graphql/all_pokemons.var.gql.dart' as _i3;
-import 'package:graphql_demo/graphql/scheme/serializers.gql.dart' as _i6;
+import 'package:graphql_demo/graphql/pokemons/all_pokemons.ast.gql.dart' as _i5;
+import 'package:graphql_demo/graphql/pokemons/all_pokemons.data.gql.dart'
+    as _i2;
+import 'package:graphql_demo/graphql/pokemons/all_pokemons.var.gql.dart' as _i3;
+import 'package:graphql_demo/graphql/pokemons/scheme/serializers.gql.dart'
+    as _i6;
 
 part 'all_pokemons.req.gql.g.dart';
 
